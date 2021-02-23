@@ -1,0 +1,446 @@
+/* **********My Navbar Styling ******** */
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+}
+
+
+.myNavbar {
+  background-color: black;
+}
+.mynavbarBrand {
+  color: red !important;
+  font-size: 30px !important;
+}
+.myNavbar_item {
+  color: white !important;
+  padding: 8px 10px !important;
+  margin: 3px 10px;
+  text-align: center;
+}
+
+.myNavbar_item:hover {
+  background-color: white;
+  border-radius: 0.3em;
+  color: black !important;
+}
+.myNavbartoggler {
+  border: 2px solid white !important;
+}
+
+/* Introduction Section Bg Image */
+
+.introSection {
+  background-image: url("https://cutewallpaper.org/21/hd-website-backgrounds/4k-Webpage-Background-Hd-Website-Backgrounds-Teriz-.jpg");
+  width: 100% !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer {
+  background-color: black;
+}
+.color-custom {
+  color: #ff6004;
+}
+li {
+  color: white;
+}
+.myborder {
+
+  border: 5px solid rgb(216, 216, 216);
+  background-color: white;
+  
+}
+
+.branch{
+  /* margin: 0px 10px;
+
+  border: 2px solid rgb(230, 230, 230);
+  background-color: white; */
+
+}
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.custom-form {
+  margin-top: 20px;
+}
+.increaseheight {
+  height: 100px;
+}
+.main-div {
+  display: flex;
+  width: 100%;
+}
+.left-div {
+  width: 50px;
+}
+.right-div {
+  width: 96%;
+
+}
+.intro {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 0px;
+}
+
+.intro-item {
+  margin: 20px 0px;
+  text-align: center;
+}
+.mybodyrow {
+  margin: 20px 0px;
+  height: 100vh;
+}
+
+.mybodycol-div {
+  border: 2px solid black;
+  height: 100vh;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.btn-custom {
+  font-size: 20px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+
+  border: 3px solid black;
+
+  border-radius: 5em;
+  outline: none;
+}
+.btn-custom:hover,
+:focus {
+  outline: none;
+  background-color: black;
+  color: white;
+}
+.heading {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 13px 0px;
+  margin: 0px;
+}
+.leftbodycol {
+  overflow-x: hidden;
+  transition: 0.8s;
+  z-index: 1;
+  position: absolute;
+  background-color: white;
+  height: 100vh;
+}
+.rightbodycol {
+  overflow-x: hidden;
+  transition: 0.8s;
+  z-index: 1;
+  background-color: white;
+  height: 100vh;
+  position: absolute;
+}
+.crossbtn {
+  font-size: 19px;
+  text-align: end;
+  color: black;
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.crossbtn:hover {
+  text-decoration: none;
+  color: white;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(216, 216, 216) !important;
+}
+
+/* -------------My navbar----------   start*/
+.mynavbar {
+  background-color: white;
+}
+.mynavbar-col-1 {
+  border-right: 2px solid #dad0d0;
+}
+.logo-img {
+  height: 50px;
+  width: 75px;
+}
+.my-icon:hover {
+  text-decoration: none;
+}
+
+.my-icon {
+  border-right: 1px solid hsl(0, 5%, 80%);
+  padding: 0px 12px;
+}
+@media only screen and (max-width: 1210px) {
+  .my-icon {
+    padding: 0px 8px;
+  }
+}
+
+@media only screen and (max-width: 1040px) {
+  .my-icon {
+    padding: 0px 3px;
+  }
+}
+
+.mynavrow {
+  border-bottom: 0.5px solid white;
+  box-shadow: 0.5px 3px hsl(0, 5%, 80%);
+  background-color: white;
+}
+
+.myicon-list {
+  position: relative;
+  top: 25%;
+}
+.mypic {
+  height: 40px;
+  width: 40px;
+  border-radius: 2em;
+  padding: 0px !important;
+  position: absolute;
+  top: -8px;
+  right: 5px;
+}
+
+.searchbar {
+  width: 100%;
+  border: none;
+  position: relative;
+  top: 5px;
+  outline: none;
+  padding: 3px;
+}
+/* -------------My navbar----------   end*/
+
+/* SideBar ---------start */
+
+.sidebar-container {
+  width: 50px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.side-icon-img {
+  margin: 8px 0px;
+}
+.dot3 {
+  display: flex;
+  margin-top: 5px;
+  flex-direction: column;
+}
+
+.sidebar-frstpart {
+  padding: 3px 15px;
+  margin-bottom: 10px;
+  background-color: hsl(285, 60%, 37%);
+  border-radius: 0em 0.5em 0.5em 0px;
+}
+#thirdcontainer {
+  display: block;
+  margin-left: 10px;
+}
+
+.check {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding: 0px;
+  border-radius: 0.2em;
+  background-color: white;
+}
+.colcon1 {
+  margin: 10px 0px;
+  margin-left: 25px;
+}
+#firstcontainerid {
+  display: block;
+}
+
+.team-icon {
+  border-radius: 0.4em;
+  margin-right: 8px;
+}
+.purpleborder {
+  color: white;
+  background-color: hsl(285, 60%, 37%);
+  height: 50px;
+  width: 50px;
+  margin: 4px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2.5em;
+}
+.secondcontainerbody {
+  padding: 0px 10px;
+}
+.thirdcontainerdiv {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.thirdcontainerdiv span {
+  padding: 8px;
+  margin: 3px;
+  background-color: yellow;
+  border-radius: 2em;
+  background-color: #da3373;
+  color: white;
+}
+
+.eventdiv {
+  margin-top: 5px;
+  padding: 20px 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 90px;
+  justify-content: space-between;
+  display: flex;
+  font-size: 15px;
+}
+.flexproperty {
+  display: flex;
+}
+.pinkbtn {
+  margin: 8px 20px;
+
+  background-color: rgb(218, 51, 115) !important  ;
+}
+.custombody {
+  display: flex;
+  justify-content: center;
+}
+.team-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bodycontainer {
+  display: flex;
+  height: 1000px;
+}
+.team-subdiv {
+  display: flex;
+  font-size: 13px;
+}
+
+.first-container {
+  padding-top: 20px;
+  color: #7e7d7d;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot1 {
+  height: 7px;
+  width: 7px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.dropdown-firstcontainer {
+  outline: none;
+  border: 1px solid #e7dddd;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+.collab-field::placeholder {
+  color: #360e6b;
+}
+.collab-field {
+  font-weight: bold;
+  font-family: system-ui;
+  letter-spacing: 1px;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+.highmargin {
+  margin-top: 10px;
+}
+.low-margin {
+  margin-bottom: 1px;
+}
+hr {
+  margin: 8px 1px;
+}
+.secondcontainer-header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 2px lightgray;
+  border-bottom: 1px solid lightgray;
+}
+.secondcontainer-header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.secondcontainer-header li {
+  float: left;
+  padding: 10px 10px;
+  position: relative;
+}
+.thirdcontainer {
+  display: block;
+}
+.secondcontainer-header li a {
+  margin: 5px 10px;
+  padding: 10px 5px !important;
+}
+.secondcontainer {
+  padding: 0px !important;
+}
+li:hover {
+  background-color: rgb(218, 51, 115);
+  color: white;
+  cursor: pointer;
+}
+
+.searchfielddiv {
+  border: 1px solid #e7dddd;
+  border-radius: 0.3em;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchfield {
+  padding: 10px 12px;
+  outline: none;
+  border: none;
+
+  padding-left: 17px;
+}
+.searchicon {
+  color: rgb(180, 180, 180);
+  padding: 15px 19px;
+}
+
+/* 767 */
+
